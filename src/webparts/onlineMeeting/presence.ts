@@ -1,5 +1,5 @@
 import { MSGraphClientV3 } from "@microsoft/sp-http";
-import { presence, presenceResponse } from "./interfaces";
+import { presence, presenceResponse } from "./types";
 
 export const getPresences = (
   client: MSGraphClientV3,

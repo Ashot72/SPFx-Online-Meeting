@@ -13,7 +13,7 @@ import { useEventsGraphService } from "../hooks/useEventsGraphService";
 import EventAddPanel from "./event/EventAddPanel";
 import EventViewPanel from "./event/EventViewPanel";
 import useRegisterTheme from "../hooks/useRegisterTheme";
-import { calendarEvent } from "../interfaces";
+import { calendarEvent } from "../types";
 
 const OnlineMeeting: React.FC<IOnlineMeetingProps> = ({ context }) => {
   const theme = useRegisterTheme(context);

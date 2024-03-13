@@ -1,7 +1,7 @@
 import * as React from "react";
 import { AcceptIcon, Avatar } from "@fluentui/react-northstar";
 import { pictureInfo } from "../../hooks/useTeamsGraphService";
-import { calendarEvent } from "../../interfaces";
+import { calendarEvent } from "../../types";
 
 interface IEventAvatars {
   pictures: pictureInfo[];

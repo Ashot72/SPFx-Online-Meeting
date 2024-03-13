@@ -10,7 +10,7 @@ import {
   presence,
   request,
   teamResponse,
-} from "../interfaces";
+} from "../types";
 import { b64toBlob, batchLimit, noUserIcon } from "../util";
 import { pictureInfo } from "./useTeamsGraphService";
 

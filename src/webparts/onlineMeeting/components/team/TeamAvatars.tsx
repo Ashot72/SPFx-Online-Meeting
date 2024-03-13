@@ -1,7 +1,7 @@
 import * as React from "react";
 import { AcceptIcon, Avatar } from "@fluentui/react-northstar";
 import { pictureInfo } from "../../hooks/useTeamsGraphService";
-import { teamResponse } from "../../interfaces";
+import { teamResponse } from "../../types";
 
 interface ITeamAvatars {
   team: teamResponse;

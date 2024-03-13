@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Flex, Text } from "@fluentui/react-northstar";
 import * as strings from "OnlineMeetingWebPartStrings";
-import { calendarEvent } from "../../interfaces";
+import { calendarEvent } from "../../types";
 
 interface IEventDate {
   event: calendarEvent;

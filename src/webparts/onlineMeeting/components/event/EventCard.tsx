@@ -5,7 +5,7 @@ import styles from "../Card.module.scss";
 import { backColor, initials } from "../../util";
 import { pictureInfo } from "../../hooks/useTeamsGraphService";
 import EventAvatars from "./EventAvatars";
-import { calendarEvent } from "../../interfaces";
+import { calendarEvent } from "../../types";
 
 interface IEventCard {
   pictures: pictureInfo[];

@@ -28,7 +28,7 @@ import * as strings from "OnlineMeetingWebPartStrings";
 import styles from "./EventPanel.module.scss";
 import { setBackgroundColor } from "../../themeColor";
 import TimePicker, { hourMinute } from "../TimePicker";
-import { teamResponse } from "../../interfaces";
+import { teamResponse } from "../../types";
 import TeamCard from "../team/TeamCard";
 import { pictureInfo } from "../../hooks/useTeamsGraphService";
 import useTheme from "../../hooks/useTheme";

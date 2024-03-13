@@ -3,7 +3,7 @@ import { sortBy } from "@microsoft/sp-lodash-subset";
 import { WebPartContext } from "@microsoft/sp-webpart-base";
 import { useState } from "react";
 import * as strings from "OnlineMeetingWebPartStrings";
-import { calendarEvent } from "../interfaces";
+import { calendarEvent } from "../types";
 
 type onlineMeetingResponse = {
   value: [{

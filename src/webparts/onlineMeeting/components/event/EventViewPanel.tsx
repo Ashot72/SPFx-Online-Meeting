@@ -22,7 +22,7 @@ import styles from "./EventPanel.module.scss";
 import { setBackgroundColor, setIconForeColor } from "../../themeColor";
 import { String } from "typescript-string-operations";
 import EventDate from "./EventDate";
-import { calendarEvent, teamResponse } from "../../interfaces";
+import { calendarEvent, teamResponse } from "../../types";
 import TeamCard from "../team/TeamCard";
 import { pictureInfo } from "../../hooks/useTeamsGraphService";
 import EventCard from "./EventCard";
