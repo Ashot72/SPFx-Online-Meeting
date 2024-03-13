@@ -1,0 +1,43 @@
+.eventPanel {
+
+    .box {
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        position: fixed;
+        z-index: 10;
+        background-color: rgba(58, 58, 58, .25);
+    }
+
+    .panel {
+        min-width: 400px;
+        position: inherit;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        z-index: 1050;
+        padding: 15px;
+        width: 380;
+        overflow: auto;
+        box-shadow:
+          rgba(0, 0, 0, 0.22) 0px 25.6px 57.6px 0px, rgba(0, 0, 0, 0.18) 0px 4.8px 14.4px 0px;
+    }
+
+    .header {
+        text-align: center
+    }
+
+    .fullWidth {
+        width: 100%;
+    }
+
+    .locIcon {
+        padding-left: 9px;
+    }
+
+    .btnsCntainer {
+        margin-top: 30px;
+    }
+}

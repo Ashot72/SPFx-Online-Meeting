@@ -1,0 +1,46 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.7",
+    "version": "1.1.0.1",
+    "id": "51e0da76-8b28-4007-a62a-583c3189e341",
+    "packageName": "com.onlinemeeting",
+    "icons": {
+        "color": "4fe1501d-8af8-4618-8aef-3269a6b02c19_color.png",
+        "outline": "4fe1501d-8af8-4618-8aef-3269a6b02c19_outline.png"
+    },
+    "name": {
+        "short": "Online Meeting"
+    },
+    "description": {
+        "short": "Online Meeting",
+        "full": "Online Meeting"
+    },
+    "accentColor": "#781EFC",
+    "staticTabs": [
+        {
+            "entityId": "onlinemeeting",
+            "name": "Online Meeting",
+            "contentUrl": "https://{teamSiteDomain}/_layouts/15/TeamsLogon.aspx?SPFX=true&dest=/_layouts/15/teamshostedapp.aspx%3Fteams%26personal%26componentId=4fe1501d-8af8-4618-8aef-3269a6b02c19%26forceLocale={locale}",
+            "scopes": [
+                "personal"
+            ]
+        }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [
+        "*.login.microsoftonline.com",
+        "*.sharepoint.com",
+        "*.sharepoint-df.com",
+        "spoppe-a.akamaihd.net",
+        "spoprod-a.akamaihd.net",
+        "resourceseng.blob.core.windows.net",
+        "msft.spoppe.com"
+    ],
+    "webApplicationInfo": {
+        "resource": "https://{teamSiteDomain}",
+        "id": "00000003-0000-0ff1-ce00-000000000000"
+    }
+}

@@ -1,0 +1,72 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "online-meeting-client-side-solution",
+    "id": "59874616-86c0-4732-a597-d79f7af52d86",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Team.ReadBasic.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "TeamMember.Read.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Presence.Read.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Calendars.ReadWrite"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "OnlineMeetings.ReadWrite"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "OnlineMeetingRecording.Read.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "OnlineMeetingTranscript.Read.All"
+      }
+      
+
+    ],
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "online-meeting description"
+      },
+      "longDescription": {
+        "default": "online-meeting description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "online-meeting Feature",
+        "description": "The feature that activates elements of the online-meeting solution.",
+        "id": "6aefb963-0800-40b2-89fa-e0c73c059b2b",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/online-meeting.sppkg"
+  }
+}
