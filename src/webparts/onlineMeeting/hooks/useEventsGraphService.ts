@@ -255,8 +255,7 @@ export const useEventsGraphService = (
                         .then((presences: presence[]) => {
                           eventsRes.forEach((event) => {
                             event.body.value.forEach((val) => {
-                              val.attendees.forEach((attendee) => {
-                                // attendee.presence = undefined; //[];
+                              val.attendees.forEach((attendee) => {              
                                 const user = users.responses.find((r) =>
                                   r.id === attendee.emailAddress.address
                                 );
@@ -270,7 +269,6 @@ export const useEventsGraphService = (
                                 }
 
                                 if (presence) {
-                                  // attendee.presences.push(presence);
                                   attendee.presence = presence;
                                 }
                               });
