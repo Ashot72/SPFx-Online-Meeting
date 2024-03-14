@@ -38,7 +38,7 @@ type teamsServiceResponse = {
   getTeams: () => void;
 };
 
-export const useTeamsService = (
+export const useTeams = (
   context: WebPartContext,
 ): teamsServiceResponse => {
   const [teams, setTeams] = useState<teamResponse[]>([]);

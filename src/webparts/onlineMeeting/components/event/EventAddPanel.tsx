@@ -30,7 +30,7 @@ import { setBackgroundColor } from "../../themeColor";
 import TimePicker, { hourMinute } from "../TimePicker";
 import { teamResponse } from "../../types";
 import TeamCard from "../team/TeamCard";
-import { pictureInfo } from "../../hooks/useTeamsService";
+import { pictureInfo } from "../../hooks/useTeams";
 import useTheme from "../../hooks/useTheme";
 
 type onlineEventInfo = {

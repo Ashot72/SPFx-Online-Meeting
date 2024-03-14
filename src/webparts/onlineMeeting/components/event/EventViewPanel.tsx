@@ -24,7 +24,7 @@ import { String } from "typescript-string-operations";
 import EventDate from "./EventDate";
 import { calendarEvent, teamResponse } from "../../types";
 import TeamCard from "../team/TeamCard";
-import { pictureInfo } from "../../hooks/useTeamsService";
+import { pictureInfo } from "../../hooks/useTeams";
 import EventCard from "./EventCard";
 import useTheme from "../../hooks/useTheme";
 import { useRecordings } from "../../hooks/useRecordings";
