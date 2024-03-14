@@ -8,8 +8,8 @@ import interactionPlugin from "@fullcalendar/interaction";
 import * as strings from "OnlineMeetingWebPartStrings";
 import styles from "./OnlineMeeting.module.scss";
 import type { IOnlineMeetingProps } from "./IOnlineMeetingProps";
-import { useTeamsGraphService } from "../hooks/useTeamsGraphService";
-import { useEventsGraphService } from "../hooks/useEventsGraphService";
+import { useTeamsService } from "../hooks/useTeamsService";
+import { useEventsService } from "../hooks/useEventsService"
 import EventAddPanel from "./event/EventAddPanel";
 import EventViewPanel from "./event/EventViewPanel";
 import useRegisterTheme from "../hooks/useRegisterTheme";
@@ -25,12 +25,12 @@ const OnlineMeeting: React.FC<IOnlineMeetingProps> = ({ context }) => {
   const [calendarEvent, setCalendarEvent] = useState<calendarEvent>();
 
   const { teams, pictures, teamsLoading, error: teamsError, getTeams } =
-    useTeamsGraphService(
+    useTeamsService(
       context,
     );
 
   const { calendarEvents, eventsLoading, error: eventsError, getEvents } =
-    useEventsGraphService(context);
+    useEventsService(context);
 
   useEffect(getTeams, [getTeams]);
 

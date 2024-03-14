@@ -12,7 +12,7 @@ import {
   teamResponse,
 } from "../types";
 import { b64toBlob, batchLimit, noUserIcon } from "../util";
-import { pictureInfo } from "./useTeamsGraphService";
+import { pictureInfo } from "./useTeamsService";
 
 type eventResponse = {
   id: string;
@@ -75,7 +75,7 @@ type eventsGrapServiceResponse = {
   getEvents: (teams: teamResponse[], startDate: Date, endDate: Date) => void;
 };
 
-export const useEventsGraphService = (
+export const useEventsService = (
   context: WebPartContext,
 ): eventsGrapServiceResponse => {
   const [events, setEvents] = useState<eventResponse[]>([]);

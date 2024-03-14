@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Box, Card, Flex, Text } from "@fluentui/react-northstar";
 import styles from "../Card.module.scss";
 import { backColor, initials } from "../../util";
-import { pictureInfo } from "../../hooks/useTeamsGraphService";
+import { pictureInfo } from "../../hooks/useTeamsService";
 import EventAvatars from "./EventAvatars";
 import { calendarEvent } from "../../types";
 

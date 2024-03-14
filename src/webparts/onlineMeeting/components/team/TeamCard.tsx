@@ -4,7 +4,7 @@ import { Box, Card, Flex, Loader, Text } from "@fluentui/react-northstar";
 import styles from "../Card.module.scss";
 import { backColor, initials } from "../../util";
 import { teamResponse } from "../../types";
-import { pictureInfo } from "../../hooks/useTeamsGraphService";
+import { pictureInfo } from "../../hooks/useTeamsService";
 import TeamAvatars from "./TeamAvatars";
 
 interface ITeamCard {

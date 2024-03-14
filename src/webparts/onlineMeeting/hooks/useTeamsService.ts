@@ -30,7 +30,7 @@ export type pictureInfo = {
   image: string;
 };
 
-type teamsGraphServiceResponse = {
+type teamsServiceResponse = {
   teams: teamResponse[];
   pictures: pictureInfo[];
   teamsLoading: boolean;
@@ -38,9 +38,9 @@ type teamsGraphServiceResponse = {
   getTeams: () => void;
 };
 
-export const useTeamsGraphService = (
+export const useTeamsService = (
   context: WebPartContext,
-): teamsGraphServiceResponse => {
+): teamsServiceResponse => {
   const [teams, setTeams] = useState<teamResponse[]>([]);
   const [pictures, setPictures] = useState<pictureInfo[]>([]);
   const [error, setError] = useState("");
