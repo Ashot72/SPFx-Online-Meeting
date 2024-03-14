@@ -110,8 +110,8 @@ export const useEventsGraphService = (
             teamsResponse.forEach(({ id }) => {
               const requestUrl: string =
                 `groups/${id}/calendar/events?$filter=start/dateTime gt '${
-                  new Date(startDate).toISOString()
-                }' and end/dateTime lt '${new Date(endDate).toISOString()}'`;
+                  startDate.toISOString()
+                }' and end/dateTime lt '${endDate.toISOString()}'`;
               eventsBody.requests.push({
                 id: id,
                 method: "GET",

@@ -4,7 +4,7 @@ This is an SPFx (SharePoint) Personal Tab Online Meeting app where you can creat
 
 In this app, we assume that each recording must have a transcript associated with it because you may record a video without transcripts.
 
-Apps need to set up Azure billing subscriptions to utilize the recordings and transcripts APIs. If an Azure billing subscription is not set up, an evaluation quota of 600 minutes/app/tenant/month is provided. To access transcription content via content and metadataContent, it costs $0.024 per minute. To access recording content, it costs $0.03 per minute.
+Apps need to set up Azure billing subscriptions to utilize the recordings and transcripts APIs. If an Azure billing subscription is not set up, an evaluation quota of 600 minutes/app/tenant/month is provided. To access transcription content and metadataContent, it costs $0.024 per minute. To access recording content, it costs $0.03 per minute.
 
 
 To get started.
